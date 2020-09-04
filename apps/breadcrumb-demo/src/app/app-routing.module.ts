@@ -43,6 +43,7 @@ export const appRoutes: Routes = [
       import('./mentee/mentee.module').then((m) => m.MenteeModule),
     data: {
       breadcrumb: {
+        label: 'Mentee (Root)',
         info: 'person_outline',
       },
     },

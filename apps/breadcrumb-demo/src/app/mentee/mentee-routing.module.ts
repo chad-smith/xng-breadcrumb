@@ -9,6 +9,9 @@ import { MenteeEditComponent } from './mentee-edit/mentee-edit.component';
 const routes: Routes = [
   {
     path: '',
+    data: {
+      breadcrumb: 'Mentee (Module)',
+    },
     component: MenteeComponent,
     children: [
       {
